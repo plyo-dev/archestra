@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.3.48](https://github.com/archestra-ai/archestra/compare/platform-v1.3.47...platform-v1.3.48) (2026-08-31)
+
+
+### Features
+
+* **agents:** add reusable execution credentials and harden runtimes ([#7561](https://github.com/archestra-ai/archestra/issues/7561)) ([34a3795](https://github.com/archestra-ai/archestra/commit/34a37951fef00caf8062f39e1d4596cfa8add4a8))
+* **agents:** redesign messaging channel assignments ([#7577](https://github.com/archestra-ai/archestra/issues/7577)) ([68ec78b](https://github.com/archestra-ai/archestra/commit/68ec78b6312a77103105c19a1eee753790e1ff66))
+* **chat:** list background executions in the search palette and fix locked-chat icons ([#7582](https://github.com/archestra-ai/archestra/issues/7582)) ([e743c6e](https://github.com/archestra-ai/archestra/commit/e743c6e1cb785e932f91c35183d00e9bac63bcce))
+
+
+### Bug Fixes
+
+* **knowledge:** tolerate persisted connector config drift ([#7576](https://github.com/archestra-ai/archestra/issues/7576)) ([d3b4820](https://github.com/archestra-ai/archestra/commit/d3b482027bad2b4639305c3f65de2cf796a06e4b))
+* **llm:** allow keyless Vertex AI/Bedrock credentials for background executions ([#7579](https://github.com/archestra-ai/archestra/issues/7579)) ([8925608](https://github.com/archestra-ai/archestra/commit/89256084c84616338938be2000fb5ad6d22be961))
+* **llm:** fold parallel tool results into one Gemini user turn ([#7585](https://github.com/archestra-ai/archestra/issues/7585)) ([529e3d4](https://github.com/archestra-ai/archestra/commit/529e3d4cdf55e9de762454f083da2257b7314207))
+* **llm:** resolve real function names for Gemini functionResponse parts ([#7583](https://github.com/archestra-ai/archestra/issues/7583)) ([fd8822f](https://github.com/archestra-ai/archestra/commit/fd8822f5bc8c210cf4f91f816e813d2ea77521bf))
+* **llm:** round-trip Gemini 3 thought signatures through the OpenAI chat surface ([#7581](https://github.com/archestra-ai/archestra/issues/7581)) ([b510b95](https://github.com/archestra-ai/archestra/commit/b510b95d28ced1b7819c88a3199b9f842a42a92d))
+
+
+### Miscellaneous Chores
+
+* **repo:** consolidate coding agent configuration ([#7572](https://github.com/archestra-ai/archestra/issues/7572)) ([b46f55a](https://github.com/archestra-ai/archestra/commit/b46f55a06e68c8c13387def2bc8684ceb08c0dea))
+
 ## [1.3.47](https://github.com/archestra-ai/archestra/compare/platform-v1.3.46...platform-v1.3.47) (2026-08-30)
 
 
